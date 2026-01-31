@@ -614,34 +614,55 @@ img{
   body{ font-size: 16px; }
   .btn{ width: 100%; justify-content: center; }
 }
-burger {
+.header{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Desktop nav */
+.nav{
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+
+/* Burger hidden by default */
+.burger{
   display: none;
-  font-size: 26px;
-  background: none;
-  border: none;
+  font-size: 24px;
+  background: transparent;
+  border: 0;
   cursor: pointer;
+  line-height: 1;
 }
 
 /* Mobile */
-@media (max-width: 768px) {
-  .burger {
-    display: block;
+@media (max-width: 768px){
+  .burger{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  .nav {
+  /* Hide nav and turn into dropdown */
+  .nav{
     display: none;
     position: absolute;
-    top: 70px;
-    right: 20px;
-    background: white;
+    right: 16px;
+    top: calc(100% + 10px);
+    background: #fff;
     flex-direction: column;
-    gap: 15px;
-    padding: 20px;
+    gap: 14px;
+    padding: 16px;
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    z-index: 1000;
+    min-width: 220px;
   }
 
-  .nav.active {
+  .nav.active{
     display: flex;
   }
 }
