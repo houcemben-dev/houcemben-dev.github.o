@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Houcem Benguermoud | Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">Houcem Benguermoud</div>
+
+    <nav class="nav">
+  <a href="#hero">Accueil</a>
+  <a href="#projects">Projets</a>
+  <a href="#skills">Compétences</a>
+   <a href="#parcours">Parcours & Expériences</a>
+  <a href="#about">À propos</a>
+  <a href="#contact">Me contacter</a>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero">
+  <div class="hero-content">
+
+    <!-- GAUCHE : texte -->
+    <div class="hero-text">
+      <h1>Houcem Benguermoud</h1>
+      <h2>Alternance Développeur IA</h2>
+
+      <p>
+        Étudiant en informatique au sein du parcours Développeur IA chez OpenClassrooms,
+        orienté Python, data et automatisation. Je recherche une alternance pour développer
+        des solutions concrètes et renforcer mes compétences en intelligence artificielle.
+      </p>
+
+      <a href="CV Alternance IA.pdf"
+         target="_blank"
+         class="btn primary">
+        Voir mon CV (PDF)
+      </a>
+    </div>
+
+    <!-- DROITE : photo -->
+    <div class="hero-image">
+      <img src="photo_cv.png" alt="Photo de Houcem Benguermoud">
+    </div>
+
+  </div>
+</section>
+
+  <!-- PROJETS -->
+  <section id="projects">
+    <h2>Mes Projets</h2>
+
+    <!-- Filtres (JS) -->
+    <div class="filters">
+      <button class="filter active" data-type="all">Tous</button>
+      <button class="filter" data-type="python">Python</button>
+    </div>
+
+<!-- Cartes (JS filtre via class python/web/data) -->
+<div class="cards">
+
+  <article class="card python">
+    <span class="tag">Python</span>
+    <h3>Générateur de mots de passe</h3>
+    <p>
+      Application Python permettant de générer des mots de passe sécurisés
+      selon plusieurs critères (longueur, caractères, aléatoire).
+    </p>
+     <a href="https://github.com/houcemben-dev/password-generator-python"
+   target="_blank"
+   rel="noopener"
+   class="btn primary">
+  <i class="fa-brands fa-github"></i> Voir sur GitHub
+</a>
+  </article>
+
+ <article class="card python">
+  <span class="tag">Python</span>
+  <h3>To-do list dynamique</h3>
+  <p>
+    Application de gestion de tâches avec une logique en Python
+    pour le traitement et l’organisation des données,
+    et une interface simple pour l’interaction utilisateur.
+  </p>
+   <a href="https://github.com/houcemben-dev/To-Do-List"
+   target="_blank"
+   rel="noopener"
+   class="btn primary">
+  <i class="fa-brands fa-github"></i> Voir sur GitHub
+</a>
+</article>
+
+  <article class="card python">
+    <span class="tag">Python</span>
+    <h3>Automatisation de processus de candidature</h3>
+    <p>
+      Outil Python permettant d’automatiser des tâches répétitives liées à la recherche d’emploi,
+      comme la préparation de candidatures, la gestion des informations et le suivi des envois.
+      Objectif : gagner du temps, structurer le processus et améliorer l’efficacité.
+    </p>
+    <a href="https://github.com/houcemben-dev/assistant-candidatures-python"
+   target="_blank"
+   rel="noopener"
+   class="btn primary">
+  <i class="fa-brands fa-github"></i> Voir sur GitHub
+</a>
+  </article>
+
+</div>
+    </div>
+  </section>
+
+  <!-- COMPÉTENCES -->
+  <section id="skills">
+    <h2>Compétences</h2>
+
+    <!-- (Optionnel) filtres visuels - pas liés au JS ici -->
+
+    <div class="skills">
+      <div class="skill">Python</div>
+      <div class="skill">Pandas</div>
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">SQL</div>
+      <div class="skill">Marketing digital</div>
+      <div class="skill">Management</div>
+      <div class="skill">Ressources humaines</div>
+      <div class="skill">Anglais (Niveau C1)</div>
+    </div>
+  </section>
+<section id="parcours">
+  <h2>Parcours & Expériences</h2>
+
+  <div class="parcours-container">
+
+    <!-- FORMATION -->
+    <div class="parcours-block">
+      <h3>🎓 Formation</h3>
+
+      <div class="parcours-item">
+        <h4>Développeur IA - En cours</h4>
+        <p>
+          Formation orientée développement Python, data et intelligence artificielle.
+          Apprentissage par projets, logique algorithmique et montée en compétences
+          progressive sur des problématiques concrètes.
+        </p>
+        <h4>Master Marketing et ingénierie d'affaires - Validé en 2023</h4>
+        <p>
+            Formation orientée analyse stratégique, compréhension des besoins clients
+            et prise de décision basée sur les données.
+            Ce parcours m’a permis de développer une forte logique analytique
+            que j’applique aujourd’hui dans mes projets techniques (Python, data, IA).
+          
+        </p>
+        <h4>Diplome de langue anglaise en situation professionnelle (DULASP) - Validé en 2021</h4>
+        <p>
+            Diplôme validant la capacité à communiquer et travailler
+            en anglais dans un contexte professionnel et technique
+            (documentation, outils, échanges écrits).
+          
+        </p>
+      </div>
+    </div>
+
+    <!-- EXPÉRIENCE PRO -->
+    <div class="parcours-block">
+      <h3>💼 Expérience professionnelle</h3>
+
+      <div class="parcours-item">
+        <h4>Assistant Store Manager chez Action (2025 - Présent)</h4>
+        <p>
+          Expérience en gestion d’équipe et pilotage opérationnel,
+          avec une forte dimension analytique et organisationnelle.
+        </p>
+
+        <ul>
+          <li>Suivi et analyse de KPI (performance, flux, résultats)</li>
+          <li>Optimisation de l’organisation et des process</li>
+          <li>Prise de décision basée sur des données concrètes</li>
+          <li>Responsabilité, autonomie et gestion des priorités</li>
+        </ul>
+        <h4>Resposable départemental chez Primark (2024 - 2025)</h4>
+        <p>
+          Analyse de performance, optimisation de process et prise de décision
+          basées sur des indicateurs concrets
+        </p>
+
+        <ul>
+          <li>Analyse de performances et suivi de KPI</li>
+          <li>Optimisation de process et organisation du travail</li>
+          <li>Prise de décision et gestion des priorités</li>
+          <li>Responsabilité et autonomie en environnement exigeant</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+  <!-- À PROPOS -->
+  <section id="about">
+  <h2>À propos</h2>
+
+  <div class="about-wrapper">
+
+    <div class="about-grid">
+      <!-- Photo -->
+      <div class="about-photo">
+        <img src="photo_cv.png" alt="Photo de Houcem Benguermoud">
+      </div>
+
+      <!-- Texte -->
+      <div class="about-content">
+        <h3>Houcem Benguermoud</h3>
+
+        <p>
+          Actuellement en reconversion vers le développement et l’intelligence artificielle,
+je suis le parcours Développeur IA chez OpenClassrooms, avec un focus sur Python,
+la logique algorithmique et l’automatisation.
+
+Issu d’un parcours en marketing et ingénierie d’affaires, et actuellement
+Assistant Store Manager chez Action, j’ai développé une forte capacité d’analyse,
+de structuration de processus et de prise de décision basée sur des indicateurs concrets.
+
+Aujourd’hui, je mets ces compétences au service de projets techniques,
+avec l’objectif de concevoir des solutions utiles, fiables et orientées données.
+Je recherche une alternance d’une durée d’un an afin de poursuivre cette montée en compétences.
+        </p>
+
+        <ul class="about-list">
+          <li>✅ Projets concrets en Python / Web</li>
+          <li>✅ Disponible dès maintenant</li>
+          <li>✅ Anglais professionnel</li>
+          <li>✅ Alternance recherchée : 1 an</li>
+          <li>✅ Nancy / Paris / Mulhouse / Jura (Suisse)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Contact intégré (dense) -->
+    <div class="about-contact">
+      <h4>Contact & réseaux</h4>
+
+      <div class="contact">
+        <a href="mailto:houcem.benguermoud@gmail.com" aria-label="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/houcem-benguermoud-9490681a1/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+
+        <a href="https://github.com/houcemben-dev" target="_blank" rel="noreferrer" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <footer style="padding:24px 8%; text-align:center; color:#64748b;">
+    © 2026 — Houcem Benguermoud
+  </footer>
+
+
+  <script src="javascript.js"></script>
+  <div id="contactModal" class="modal" aria-hidden="true">
+  <div class="modal-overlay" data-close></div>
+
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" type="button" data-close aria-label="Fermer">✕</button>
+
+    <h3 id="modalTitle">Me contacter</h3>
+
+    <div class="modal-actions">
+      <a class="modal-row" href="mailto:houcem.benguermoud@gmail.com">
+        <span class="modal-label">Email</span>
+        <span class="modal-value">houcem.benguermoud@gmail.com</span>
+      </a>
+
+      <a class="modal-row" href="tel:+33612345678">
+        <span class="modal-label">Téléphone</span>
+        <span class="modal-value">+33 6 98 01 42 48</span>
+      </a>
+    </div>
+
+    <div class="modal-cta">
+      <button type="button" class="btn primary" data-close>Fermer</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>
