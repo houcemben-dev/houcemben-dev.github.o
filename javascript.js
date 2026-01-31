@@ -92,4 +92,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // TEST RAPIDE : tu peux ouvrir la modale depuis la console en tapant openContact()
   window.openContact = openModal;
+
+});
+const burger = document.querySelector('.burger');
+const nav = document.querySelector('.nav');
+
+burger.addEventListener('click', () => {
+  nav.classList.toggle('active');
 });
